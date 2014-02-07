@@ -36,7 +36,19 @@ place_types:
   park-approved:
     default: tree-gold
     focused: tree-gold-focused
-    label: _(ApprovedPark/Open Space)
+    label: _(Approved Park/Open Space)
+  building-pending:
+    default: building-gold
+    focused: building-gold-focused
+    label: _(Under Consideration Building/Facility)
+  street-pending:
+    default: cone-gold
+    focused: cone-gold-focused
+    label: _(Under Consideration Roadway/Streetscape)
+  park-pending:
+    default: tree-gold
+    focused: tree-gold-focused
+    label: _(Under Consideration Park/Open Space)
   building:
     default: building
     focused: building-focused
